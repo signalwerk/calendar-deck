@@ -52,5 +52,7 @@ This will produce two events, one with the Title `Meetup – HTML` and one with 
 
 
 ## License
-
 MIT
+
+## Similar Projects
+* [Duckling](https://github.com/facebook/duckling)
