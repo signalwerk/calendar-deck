@@ -1,0 +1,30 @@
+{
+  "name": "calendar-deck",
+  "version": "0.1.0",
+  "main": "dist/calendar-deck.cjs.js",
+  "module": "dist/calendar-deck.esm.js",
+  "browser": "dist/calendar-deck.umd.js",
+  "dependencies": {
+    "front-matter": "^3.1.0",
+    "immutable-ics": "^0.4.0",
+    "moment": "^2.24.0",
+    "ramda": "^0.27.0",
+    "uuid": "^7.0.3",
+    "yargs": "^15.3.1"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^11.0.1",
+    "@rollup/plugin-node-resolve": "^7.0.0",
+    "rollup": "^1.29.0"
+  },
+  "bin": {
+    "calendar-deck": "cli.js"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w"
+  },
+  "files": [
+    "dist/calendar-deck.*"
+  ]
+}
